@@ -15,7 +15,7 @@ interface FlexDivProps {
 }
 
 const FlexDiv: React.FC<FlexDivProps> = ({ children }) => {
-  return <StyledFlexDiv> {children} </StyledFlexDiv>;
+  return <StyledFlexDiv>{children}</StyledFlexDiv>;
 };
 
 export default FlexDiv;
